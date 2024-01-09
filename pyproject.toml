@@ -12,6 +12,8 @@ openai = "^1.7.0"
 langchain = "^0.1.0"
 langchain-community = "^0.0.10"
 python-dotenv = "^1.0.0"
+setuptools = "^69.0.3"
+virtualenv = "^20.25.0"
 
 
 [build-system]

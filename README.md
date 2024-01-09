@@ -1,6 +1,17 @@
-## Demo App
+## 🚀 Getting Started
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://langchain-quickstart.streamlit.app/)
+To run a demo, follow these steps:
+
+
+1. Install the required dependencies:
+   ```
+   pip install -r requirements.txt
+   ```
+2. Create a `.env` file based on the provided `.env.example` file:
+   ```
+   cp .env.example .env
+   ```
+   Modify the `.env` file as needed to include any necessary API keys or configuration settings.
 
 ## Get an OpenAI API key
 
@@ -11,4 +22,9 @@ You can get your own OpenAI API key by following the following instructions:
 
 ## Try out the app
 
-Once the app is loaded, go ahead and enter your OpenAI API key and type a question in the text box and wait for a generated response.
+To run the app, open your terminal or command prompt and navigate to the directory where your script is located. Then, execute the following command:
+
+```
+   streamlit run app.py
+```
+

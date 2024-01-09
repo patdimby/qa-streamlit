@@ -2,8 +2,8 @@ import streamlit as st
 import os
 import openai
 from langchain.llms import OpenAI
-st.set_page_config(page_title="🦜🔗 Quickstart App")
-st.title('🦜🔗 Quickstart App')
+st.set_page_config(page_title="🦜🔗 QA Chat App")
+st.title('🦜🔗 Welcome to my QA App')
 
 openai_api_key = os.environ.get("OPENAI_API_KEY")
 

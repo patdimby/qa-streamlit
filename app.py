@@ -1,12 +1,15 @@
 import streamlit as st
+
 import os
-import openai
-from langchain.llms import OpenAI
+from dotenv import load_dotenv
+
+from langchain_community.llms import OpenAI
 
 st.set_page_config(page_title="🦜🔗 QA Chat App")
 st.title('🦜🔗 Welcome to my QA App')
 
-openai_api_key = os.environ.get("OPENAI_API_KEY")
+load_dotenv()
+openai_api_key = os.getenv("OPENAI_API_KEY")
 
 
 def generate_response(input_text):

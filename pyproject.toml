@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "qa-streamlit"
+version = "0.1.0"
+description = "Streamlit question & answer."
+authors = ["dpr-forgerz <dpr@forgerz.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.29.0"
+openai = "^1.7.0"
+langchain = "^0.1.0"
+langchain-community = "^0.0.10"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,3 +1,5 @@
+# ChatGPT
+This application is an Question & Answer demo with a Streamlit interface.
 ## 🚀 Getting Started
 
 To run a demo, follow these steps:
